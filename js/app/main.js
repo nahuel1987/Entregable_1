@@ -17,4 +17,16 @@ function buscador_trabajo() {
 
 buscador_trabajo()
 
+const rootElement = document.documentElement;
+const headElement = document.head;
+const bodyElement = document.body;
 
+console.log(rootElement);
+console.log(headElement);
+
+// bodyElement.style.backgroundColor
+
+const myH1 = document.createElement("h1");
+myH1.textContent = "welcome to nodes!";
+
+bodyElement.appendChild(myH1);
